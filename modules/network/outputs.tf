@@ -6,3 +6,7 @@ output "resource_group_name" {
 output "vnet_name" {
   value = azurerm_virtual_network.vnet.name
 }
+output "bastion_subnet_id" {
+  value = azurerm_subnet.bastion.id
+  }
+
